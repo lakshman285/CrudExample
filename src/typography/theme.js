@@ -8,4 +8,6 @@ export const colors = {
   secondaryTextColor: '#B0B0B0',
   gray: 'gray',
   skyblue: 'skyblue',
+  buttonColor: ''
 };
+  

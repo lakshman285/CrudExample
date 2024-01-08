@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Screen Page renders correctly Renders the Landing Screen Correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "paddingTop": 75,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "padding": 30,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "default": [Function],
+                  }
+                }
+                style={
+                  {
+                    "height": 90,
+                    "width": 90,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "padding": 0,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "black",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                  "width": 250,
+                }
+              }
+            >
+              Sign In
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "black",
+                  "fontSize": 14,
+                  "marginTop": 10,
+                  "textAlign": "center",
+                  "width": 250,
+                }
+              }
+            >
+              Crud Example Needs Sign In
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "textAlign": "center",
+                "textTransform": "uppercase",
+              }
+            }
+          >
+            CrudExample
+             
+            0.0.1
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
